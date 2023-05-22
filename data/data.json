@@ -1,0 +1,52 @@
+[
+    {
+     "service_id": 1,
+      "image": "https://images.unsplash.com/photo-1635863138275-d9b33299680b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
+      "title": "Marvel Action Figure",
+      "name": "Iron Man",
+      "price": 19.99,
+      "details": "Highly detailed Iron Man action figure with articulated joints."
+    },
+    {
+     "service_id": 2,
+      "image": "https://images.unsplash.com/photo-1608889476561-6242cfdbf622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+      "title": "Marvel Hero Set",
+      "name": "Spider-Man",
+      "price": 24.99,
+      "details": "Includes Spider-Man action figure, web shooters, and interchangeable masks."
+    },
+    {
+     "service_id": 3,
+      "image": "https://unsplash.com/photos/8zT7bmzCSKM",
+      "title": "Avengers Team Pack",
+      "name": "Captain America",
+      "price": 39.99,
+      "details": "Complete set of Avengers action figures including Captain America, Iron Man, Thor, Hulk, and Black Widow."
+    },
+    {
+     "service_id": 4,
+      "image": "https://unsplash.com/photos/3FA80_d8rHo",
+      "title": "Marvel Vehicle",
+      "name": "Black Panther",
+      "price": 29.99,
+      "details": "Black Panther action figure with a sleek and powerful Wakandan vehicle."
+    },
+    {
+
+     "service_id": 5,
+      "image": "https://images.unsplash.com/photo-1608889476561-6242cfdbf622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+      "title": "Marvel Legends Series",
+      "name": "Thor",
+      "price": 34.99,
+      "details": "Premium Thor action figure with realistic design and multiple accessories."
+    },
+    {
+      "service_id": 6,
+      "image": "https://unsplash.com/photos/jTWTBhVQ27w",
+      "title": "Marvel Collectible Statue",
+      "name": "Thanos",
+      "price": 79.99,
+      "details": "Detailed Thanos statue capturing the iconic villain in a menacing pose."
+    }
+  ]
+  

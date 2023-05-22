@@ -1,0 +1,59 @@
+{
+    "cards": [
+      {
+        "serviceid": 1,
+        "name": "Iron Man",
+        "title": "Avenger Hero Toy Card - Iron Man",
+        "image": "https://images.unsplash.com/photo-1608889175419-ac2a18682fe9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+        "price": 19.99,
+        "details": "Bring home the genius, billionaire, playboy, philanthropist with this Iron Man toy card!",
+        "quantity": 10
+      },
+      {
+        "serviceid": 2,
+        "name": "Captain America",
+        "title": "Avenger Hero Toy Card - Captain America",
+        "image": "https://images.unsplash.com/photo-1608889175638-9322300c46e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
+        "price": 17.99,
+        "details": "Unleash the patriotic hero within with this Captain America toy card!",
+        "quantity": 8
+      },
+      {
+        "serviceid": 3,
+        "name": "Thor",
+        "title": "Avenger Hero Toy Card - Thor",
+        "image": "https://images.unsplash.com/photo-1561149877-84d268ba65b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+        "price": 21.99,
+        "details": "Harness the power of thunder and lightning with this mighty Thor toy card!",
+        "quantity": 6
+      },
+      {
+        "serviceid": 4,
+        "name": "Hulk",
+        "title": "Avenger Hero Toy Card - Hulk",
+        "image": "https://images.unsplash.com/photo-1640499900704-b00dd6a1103a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+        "price": 16.99,
+        "details": "Unleash the incredible power of the Hulk with this smashing toy card!",
+        "quantity": 12
+      },
+      {
+        "serviceid": 5,
+        "name": "Black Widow",
+        "title": "Avenger Hero Toy Card - Black Widow",
+        "image": "https://images.unsplash.com/photo-1657558045738-21507cf53606?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+        "price": 14.99,
+        "details": "Unleash the stealthy spy skills of Black Widow with this amazing toy card!",
+        "quantity": 5
+      },
+      {
+        "serviceid": 6,
+        "name": "Spider-Man",
+        "title": "Avenger Hero Toy Card - Spider-Man",
+        "image": "https://images.unsplash.com/photo-1608889335932-3030fa378fcb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGF2ZW5nZXJzJTIwdG95c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "price": 18.99,
+        "details": "Swing into action and save the day with this friendly neighborhood Spider-Man toy card!",
+        "quantity": 9
+      }
+    ]
+  }
+  
