@@ -1,0 +1,45 @@
+
+     [
+      {
+        "id": 1,
+        "seller": "Marvel Merchandise",
+        "name": "Iron Man Action Figure",
+        "sub_category": "Action Figures",
+        "price": 24.99,
+        "quantity": 20
+      },
+      {
+        "id": 2,
+        "seller": "Superhero Store",
+        "name": "Captain America Shield",
+        "sub_category": "Accessories",
+        "price": 14.99,
+        "quantity": 30
+      },
+      {
+        "id": 3,
+        "seller": "Hero Haven",
+        "name": "Black Widow Doll",
+        "sub_category": "Dolls",
+        "price": 19.99,
+        "quantity": 25
+      },
+      {
+        "id": 4,
+        "seller": "Comic Collectibles",
+        "name": "Thor Hammer",
+        "sub_category": "Replicas",
+        "price": 29.99,
+        "quantity": 15
+      },
+      {
+        "id": 5,
+        "seller": "Action Figures Galore",
+        "name": "Hulk Smash Figure",
+        "sub_category": "Collectibles",
+        "price": 34.99,
+        "quantity": 10
+      }
+    ]
+  
+  

@@ -1,6 +1,6 @@
 [
     {
-     "service_id": 1,
+     "_id": 1,
       "image": "https://images.unsplash.com/photo-1635863138275-d9b33299680b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1331&q=80",
       "title": "Marvel Action Figure",
       "name": "Iron Man",
@@ -8,7 +8,7 @@
       "details": "Highly detailed Iron Man action figure with articulated joints."
     },
     {
-     "service_id": 2,
+     "_id": 2,
       "image": "https://images.unsplash.com/photo-1608889476561-6242cfdbf622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
       "title": "Marvel Hero Set",
       "name": "Spider-Man",
@@ -16,7 +16,7 @@
       "details": "Includes Spider-Man action figure, web shooters, and interchangeable masks."
     },
     {
-     "service_id": 3,
+     "_id": 3,
       "image": "https://unsplash.com/photos/8zT7bmzCSKM",
       "title": "Avengers Team Pack",
       "name": "Captain America",
@@ -24,7 +24,7 @@
       "details": "Complete set of Avengers action figures including Captain America, Iron Man, Thor, Hulk, and Black Widow."
     },
     {
-     "service_id": 4,
+     "_id": 4,
       "image": "https://unsplash.com/photos/3FA80_d8rHo",
       "title": "Marvel Vehicle",
       "name": "Black Panther",
@@ -33,7 +33,7 @@
     },
     {
 
-     "service_id": 5,
+     "_id": 5,
       "image": "https://images.unsplash.com/photo-1608889476561-6242cfdbf622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80",
       "title": "Marvel Legends Series",
       "name": "Thor",
@@ -41,7 +41,7 @@
       "details": "Premium Thor action figure with realistic design and multiple accessories."
     },
     {
-      "service_id": 6,
+      "_id": 6,
       "image": "https://unsplash.com/photos/jTWTBhVQ27w",
       "title": "Marvel Collectible Statue",
       "name": "Thanos",

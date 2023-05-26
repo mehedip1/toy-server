@@ -8,9 +8,19 @@ const port = process.env.PORT || 5000;
 console.log(process.env.DB_PASS)
 
 
+
+const cards = require('./data/ToyCard.json')
+
+
+
+
 // middleware
 app.use(cors());
 app.use(express.json());
+
+
+
+
 
 
 
@@ -32,14 +42,47 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
 
+
+    const toyCollection = client.db('toyCard').collection('services');
+
+
+app.post('/services', async(req, res)=> {
+  const newToy = req.body;
+  console.log(newToy);
+  const result = await toyCollection.insertOne(newToy);
+  res.send(result);
+})
+
+
+
    const serviceCollection = client.db('toyCard').collection('services');
+   const categoriesCollection = client.db('toyCard').collection('categories');
 
-
-   app.get('/services',async(req, res)=>{
+   app.get('/services', async(req, res)=>{
     const cursor = serviceCollection.find();
     const result = await cursor.toArray();
     res.send(result);
 
+   })
+
+
+   app.get('/cards',(req, res)=>{
+    console.log(cards)
+    res.send(cards)
+
+   }) 
+
+  //  app.get('/recipes',(req,res)=>{
+  //   console.log(recipes);
+  //   res.send(recipes);
+  // })
+
+
+   app.get('/categories', async(req,res)=>{
+    const cursor = categoriesCollection.find();
+    const result = await cursor.toArray();
+    console.log(result)
+    res.send(result);
    })
 
 
@@ -53,8 +96,6 @@ async function run() {
 }
 run().catch(console.dir);
 
-// mehdihassanstu0
-// 6FpHfkVgdJDVaDiR
 
 app.get('/',(req, res)=>{
     res.send('TOY CRUD IS RUNNING')
