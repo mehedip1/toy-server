@@ -10,6 +10,7 @@ console.log(process.env.DB_PASS)
 
 
 const cards = require('./data/ToyCard.json')
+const details = require('./data/details.json')
 
 
 
@@ -50,6 +51,7 @@ app.post('/services', async(req, res)=> {
   const newToy = req.body;
   console.log(newToy);
   const result = await toyCollection.insertOne(newToy);
+  console.log(result);
   res.send(result);
 })
 
@@ -70,13 +72,14 @@ app.post('/services', async(req, res)=> {
     console.log(cards)
     res.send(cards)
 
-   }) 
+   });
 
-  //  app.get('/recipes',(req,res)=>{
-  //   console.log(recipes);
-  //   res.send(recipes);
-  // })
+   app.get('/details',(req, res)=>{
+    console.log(details);
+    res.send(details)
+   })
 
+  
 
    app.get('/categories', async(req,res)=>{
     const cursor = categoriesCollection.find();
