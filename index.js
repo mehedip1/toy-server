@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const jwt = require('jsonwebtoken');
 const { MongoClient, ServerApiVersion } = require('mongodb');
 require('dotenv').config()
 const app = express();
@@ -47,6 +48,18 @@ async function run() {
     const toyCollection = client.db('toyCard').collection('services');
 
 
+// jwt
+
+app.post('/jwt', (req, res)=> {
+  const user = req.body;
+  console.log(user);
+  const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET,{ expiresIn : '1h' });
+  res.send(token);
+})
+
+
+
+//  service routes
 app.post('/services', async(req, res)=> {
   const newToy = req.body;
   console.log(newToy);
@@ -67,19 +80,23 @@ app.post('/services', async(req, res)=> {
 
    })
 
-
+//  cards routes
    app.get('/cards',(req, res)=>{
     console.log(cards)
     res.send(cards)
 
    });
 
+
+  //  details routes
    app.get('/details',(req, res)=>{
     console.log(details);
     res.send(details)
    })
 
   
+
+  //  categories routes
 
    app.get('/categories', async(req,res)=>{
     const cursor = categoriesCollection.find();
